@@ -23,17 +23,17 @@
 项目结构
 
 一个项目对应多个目录<br>
-    ├── branches             - 分支目录<br>
+    ├── branches             - 分支目录<br/>
     ├── dist                 - 打包目录<br>
     ├── path                 - 开发目录<br>
     ├── config               - 项目的配置信息<br>
     └── remark.txt           - 打包备注<br>
     
 开发中模块将由以下结构组成<br>
-    ├── css                     - 通过编译生成的css目录<br>
-    │<br>
-    ├── html                    - 通过编译生成的html目录<br>
-    │<br>
+    ├── css                     - 通过编译生成的css目录<br/>
+    │<br/>
+    ├── html                    - 通过编译生成的html目录<br/>
+    │<br/>
     ├── images                  - 静态页面使用的image，不打包<br>
     │<br> 
     ├── img                     - 需打包文件，具体根据项目自配<br>

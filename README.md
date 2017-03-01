@@ -22,42 +22,42 @@
 
 项目结构
 
-一个项目对应多个目录
+一个项目对应多个目录<br>
     ├── branches             - 分支目录<br>
     ├── dist                 - 打包目录<br>
     ├── path                 - 开发目录<br>
     ├── config               - 项目的配置信息<br>
     └── remark.txt           - 打包备注<br>
     
-开发中模块将由以下结构组成
+开发中模块将由以下结构组成<br>
     ├── css                     - 通过编译生成的css目录<br>
-    │   
+    │<br>
     ├── html                    - 通过编译生成的html目录<br>
-    │
+    │<br>
     ├── images                  - 静态页面使用的image，不打包<br>
-    │  
+    │<br> 
     ├── img                     - 需打包文件，具体根据项目自配<br>
     │   ├── icon                - css里的image<br>
     │   ├── dialog              - 弹出框模块<br>
     │   ├── user                - 会员模块image<br>
-    │   ... 
-    │       
-    ├── js                       - js目录，具体根据项目自配
-    │   ├── plugins              - 第三方框架/库
-    │   ├── common               - 全局方法
-    │   ├── index                - 首页模块js文件
-    │   ├── user                 - 会员模块js文件
-    │   ...
-    │   ├── config.js            -js配置信息
-    │
-    ├── sass/less
-    │   ├── base                  - css底层
-    │   ├── common                - 通用css
-    │   ├── ui                    -模块css
-    │   ├── all.scss
-    │
-    ├── template
-    │   ├── inc                   - 公用
-    │   ...
-    │
-    └── index.html                - 中转页
+    │   ... <br>
+    │<br>   
+    ├── js                       - js目录，具体根据项目自配<br>
+    │   ├── plugins              - 第三方框架/库<br>
+    │   ├── common               - 全局方法<br>
+    │   ├── index                - 首页模块js文件<br>
+    │   ├── user                 - 会员模块js文件<br>
+    │   ...<br>
+    │   ├── config.js            -js配置信息<br>
+    │<br>
+    ├── sass/less<br>
+    │   ├── base                  - css底层<br>
+    │   ├── common                - 通用css<br>
+    │   ├── ui                    -模块css<br>
+    │   ├── all.scss<br>
+    │<br>
+    ├── template<br>
+    │   ├── inc                   - 公用<br>
+    │   ...<br>
+    │<br>
+    └── index.html                - 中转页<br>
